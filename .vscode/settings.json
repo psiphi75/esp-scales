@@ -1,0 +1,16 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/simon/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230419/openocd-esp32/share/openocd/scripts"
+    },
+    "idf.espIdfPath": "/opt/esp/idf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.pythonBinPath": "/opt/esp/python_env/idf5.3_py3.10_env/bin/python",
+    "idf.toolsPath": "/opt/esp",
+    "idf.flashType": "UART"
+}
